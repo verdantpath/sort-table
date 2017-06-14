@@ -39,7 +39,7 @@ $('.sortable').each(function() {
 
     if ($header.is('.ascending') || $header.is('.descending')) {
       $header.toggleClass('acsending descending');
-      $tbody.append(rows.reverse();
+      $tbody.append(rows.reverse());
     } else {
       $header.addClass('ascending');
       $header.siblings().removeClass('ascending descending');
